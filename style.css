@@ -16,9 +16,16 @@
     z-index: 2;
 }
 
+/* Ready to join text size */
 .my-height {
     height: 200px;
     text-align: start;
     padding-top: 5%;
     padding-left: 6%;
+}
+
+/* company logo size */
+.my-width {
+    width: 10%;
+    height: 10%;
 }
