@@ -5,12 +5,251 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>EdTech Website</title>
+    <!-- CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstarp CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- navigation bar start -->
+    <nav class="container navbar navbar-expand-lg bg-white mt-4">
+        <div class="container-fluid">
+            <img src="images/company/company-1.png" alt="Coursera">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Success</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button class="btn btn-outline-primary" type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- navigation bar end -->
+    <!-- Carousel start -->
+    <div class="container mt-4">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item drk active">
+                    <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-sm-block d-md-block position-absolute">
+                        <h1>Get Started Digital
+                            Learning</h1>
+                        <p>Educational technology in education is important because it helps today's teachers to
+                            integrate new technologies and tools into their classroom.</p>
+                        <button class="btn bg-info text-white">Get Started</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <!-- Carousel end -->
+    <!-- Discover our popular courses start -->
+    <section class="container mt-5">
+        <div class="w-auto text-center">
+            <h2 class="fw-bold">Discover Our Popular Courses</h2>
+            <p>Join millions of people learning on Coursera. Find online courses and degrees from leading universities.
+            </p>
+        </div>
+        <!-- card start -->
+        <!-- card 1: Fundamental Of UI/UX Design -->
+        <div class="d-flex flex-wrap justify-content-around">
+            <div class="card col-lg-6 mt-5 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                            <p class="card-text">Most designers are familiar with the concept of “design thinking” as a
+                                UX process.</p>
+                            <p class="card-text text-primary fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 2: Javascript Basic to advanced -->
+            <div class="card col-lg-6 mt-5 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript Basic to advanced</h5>
+                            <p class="card-text">JavaScript is the programming language of the Web. JavaScript is easy
+                                to learn.</p>
+                            <p class="card-text text-primary fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 3: Fullstack Web Development -->
+            <div class="card mt-5 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Fullstack Web Development</h5>
+                            <p class="card-text">Become a full stack web developer and learn to design and develop
+                                powerful modern web applications.</p>
+                            <p class="card-text text-primary fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 4: Digital Marketing -->
+            <div class="card mt-5 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Digital marketers require strong writing skills along with data
+                                analytics and social media skills.</p>
+                            <p class="card-text text-primary fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5: Photography Basic Rules -->
+            <div class="card mt-5 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Photography Basic Rules</h5>
+                            <p class="card-text">Our expert-led photography classes will give you the skills you need to
+                                become a professional photographer.</p>
+                            <p class="card-text text-primary fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- card 6: Motion Graphics -->
+            <div class="card mt-5 mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 my-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Motion Graphics</h5>
+                            <p class="card-text">Motion graphics is animation, but with text as a major component.
+                                Essentially, it's animated graphic design.</p>
+                            <p class="card-text text-primary fw-bold">Price : 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- card end -->
+        <div class="d-flex justify-content-center mt-3"><button class="btn btn-primary">See More Courses</button></div>
+    </section>
+    <!-- Discover our popular courses end -->
+    <!-- Ready to Join start -->
+    <div class="container mt-5 bg-primary rounded-2">
+        <div class="d-flex my-height">
+            <div class="col-10 text-white">
+                <h2>Ready to Join?</h2>
+                <p>Are you ready to join our team? We are always looking for skilled craftspeople who are hard-working,
+                    motivated and passionate about what they do.</p>
+            </div>
+            <!-- Register Now button start -->
+            <div class="col-2 pt-5">
+                <button type="button" class="btn btn-light text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Register Now</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Email Us:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">Recipient:
+                                            mdobayedullah007@gmail.com</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">Preferred Course:</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Send message</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Register Now button end -->
+        </div>
+    </div>
+    <!-- Ready to Join end -->
+
+    <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
