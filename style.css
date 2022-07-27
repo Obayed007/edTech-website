@@ -29,3 +29,13 @@
     width: 10%;
     height: 10%;
 }
+
+/* Footer */
+.my-footer {
+    border: 5px solid rgb(0, 0, 0);
+    background-color: #161616;
+    height: 250pt;
+    text-align: center;
+    color: white;
+    padding-top: 7%;
+}
