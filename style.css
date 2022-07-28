@@ -39,3 +39,38 @@
     color: white;
     padding-top: 7%;
 }
+
+/* Font awesome icon */
+.icon {
+    font-size: 2em;
+    margin-left: 2%;
+}
+
+/* media queries for responsiveness */
+@media only screen and (max-width:576px) {
+    .carousel-caption h1 {
+        font-size: 100%;
+    }
+
+    .carousel-caption p {
+        font-size: 50%;
+    }
+
+    .col-md-4 img {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .carousel-caption h1 {
+        font-size: 100%;
+    }
+
+    .carousel-caption p {
+        font-size: 50%;
+    }
+
+    .col-md-4 img {
+        width: 100%;
+    }
+}
